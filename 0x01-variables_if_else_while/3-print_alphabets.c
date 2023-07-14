@@ -5,17 +5,14 @@
  */
 int main(void)
 {
-int lowerCase = 'a';
-int upperCase = 'A';
-while (lowerCase <= 'z')
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(lowerCase);
-lowerCase += 1;
+putchar(c);
 }
-while (upperCase <= 'z')
+for (c = 'A'; c <= 'Z'; c++)
 {
-putchar(upperCase);
-upperCase += 1;
+putchar(c);
 }
 putchar('\n');
 return (0);
