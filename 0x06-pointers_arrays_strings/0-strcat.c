@@ -6,11 +6,8 @@
  * Return: void (success)
  */
 char *_strcat(char *dest, char *src)
+
 {
-	if (dest == null || src == null)
-	{
-		return null;
-	}
 
 	int i = 0, j = 0;
 
