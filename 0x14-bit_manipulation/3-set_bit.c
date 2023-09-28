@@ -5,8 +5,7 @@
  * @n: pointer to the number to change
  * @index: index of the bit to set to 1
  *
- * Return: 1 for (success)
- * Return: -1 for (failure)
+ * Return: 1 for (success) or -1 for (failure)
  */
 int set_bit_value(unsigned long int *n, unsigned int index)
 {
